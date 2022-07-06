@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pragraph-style {
+    line-height: 22px;
+    font-size: 20px;
+}
+
+.Help-main-div {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: crimson;
+    padding: 18px 12px 18px 12px;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.heading-style {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+
+}
+
+.Help-div {
+    text-align: center;
+    line-height: 17px;
+    width: 75%;
+
+}
+
+/* banner-section */
+
+.Top-banner {
+    width: 100%;
+    height: 510px;
+    background-image: url(donate-today-main/images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.banner-topDiv {
+    width: 75%;
+    color: white;
+    text-align: center;
+}
+
+.banner-topDiv h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.banner-topDiv p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+
+.Need {
+    color: darkblue;
+}
+
+/* doanate amount section */
+
+.Help-main-div {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.amount-tk {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.amount-tk button {
+    color: #707070;
+    padding: 20px 25px;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 6px;
+
+}
+
+.marks {
+    border: 3px solid palevioletred;
+    background-color: pink;
+}
+
+form {
+    width: 75%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
